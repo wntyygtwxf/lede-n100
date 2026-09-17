@@ -124,9 +124,9 @@ jobs:
         echo "LEDE x86_64 (N100) Firmware for PVE" >> release.txt
         echo "- Rootfs Partition Size: 2048 MB (2G)" >> release.txt
         echo "- Boot Mode: UEFI + Legacy MBR (squashfs-combined-efi)" >> release.txt
-        echo "- Included: SSR-Plus, OpenClash, Tailscale, Samba4, Turbo ACC, Argon Theme" >> release.txt
-        echo "- NIC Drivers: Intel i225/i226 (igc), Realtek 8125, VirtIO" >> release.txt
-        echo "- Default IP: 192.168.50.1, Password: password" >> release.txt
+        echo "- Included: SSR-Plus, OpenClash, Tailscale, Samba4, Turbo ACC, ttyd, Diskman" >> release.txt
+        echo "- NIC Drivers: Intel i225/i226 (igc), Realtek 8125/8126, VirtIO" >> release.txt
+        echo "- Default IP: 192.168.50.2, Password: password" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: Upload firmware to release

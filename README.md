@@ -22,13 +22,13 @@
   - 科学上网：`luci-app-ssr-plus`、`luci-app-openclash`（含常用内核与依赖）
   - 组网穿透：`luci-app-tailscale-community` / `tailscale`
   - 网络优化加速：`luci-app-turboacc`（Turbo ACC 网络加速，支持 Flow Offloading、BBR 等）
-- **外观界面**：`luci-theme-argon` 现代化毛玻璃主题 + `luci-app-argon-config`
+- **外观界面**：官方默认主题 `luci-theme-bootstrap`
 
 ---
 
 ## 默认访问信息
 
-- **管理后台 IP**：`192.168.50.1`
+- **管理后台 IP**：`192.168.50.2`
 - **默认用户名**：`root`
 - **默认密码**：`password`
 
